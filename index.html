@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fatimah Salahuddin – Professional Portfolio</title>
+  <meta name="description" content="Professional portfolio of Fatimah Salahuddin – Artifact 1: AI & ML Timelines." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b0f17; --card:#111826; --ink:#eaf2ff; --muted:#9db1d1; --acc:#7aa2ff; --acc-2:#98eabf;
+      --border: rgba(255,255,255,.08);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+    a{color:var(--acc);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1040px;margin:0 auto;padding:28px}
+    header{position:sticky;top:0;background:linear-gradient(180deg, rgba(11,15,23,.9), rgba(11,15,23,.6));backdrop-filter: blur(8px);z-index:10;border-bottom:1px solid var(--border)}
+    .nav{display:flex;align-items:center;gap:18px;justify-content:space-between;padding:12px 28px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand-badge{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--acc),var(--acc-2));display:grid;place-items:center;font-weight:800;color:#0b1220}
+    .brand h1{font-size:18px;margin:0}
+    .menu{display:flex;gap:14px;flex-wrap:wrap}
+    .menu a{padding:8px 12px;border:1px solid var(--border);border-radius:10px;color:var(--ink)}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:42px 28px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));border:1px solid var(--border);border-radius:18px}
+    .card-inner{padding:22px}
+    h2{margin:0 0 10px;font-size:28px}
+    p{color:var(--muted);line-height:1.65}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;border:1px solid var(--border);background:linear-gradient(135deg, rgba(122,162,255,.18), rgba(152,234,191,.18));color:var(--ink);font-weight:600}
+    .grid{display:grid;gap:22px}
+    .two{grid-template-columns:1fr 1fr}
+    .tag{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}
+    .meta{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0 0}
+    .meta span{padding:6px 10px;border-radius:999px;border:1px solid var(--border);font-size:12px;color:var(--muted)}
+    figure{margin:0}
+    .preview{aspect-ratio:16/9;background:radial-gradient(1200px 600px at -10% -20%, rgba(122,162,255,.25), transparent 50%), radial-gradient(800px 400px at 120% 20%, rgba(152,234,191,.2), transparent 60%), linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));border:1px solid var(--border);border-radius:16px;display:grid;place-items:center;color:#dce8ff}
+    .section{margin:26px 0}
+    .section h3{margin:0 0 8px}
+    .list{margin:8px 0 0;padding-left:18px;color:var(--muted)}
+    footer{margin:40px 0 12px;color:var(--muted);text-align:center}
+    code.inline{background:rgba(255,255,255,.06);padding:2px 6px;border-radius:6px;border:1px solid var(--border)}
+    @media (max-width: 900px){.hero{grid-template-columns:1fr}.menu{display:none}}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav wrap">
+      <div class="brand">
+        <div class="brand-badge" aria-hidden="true">FS</div>
+        <h1>Fatimah Salahuddin · Portfolio</h1>
+      </div>
+      <div class="menu" role="navigation" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#artifact-1">Artifact 1</a>
+        <a href="#reflection">Reflection</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="card">
+        <div class="card-inner">
+          <h2>Professional Portfolio</h2>
+          <p>
+            Welcome! I’m <strong>Fatimah Salahuddin</strong> — a data‑driven professional with experience in research, analytics, and
+            technology‑enabled problem solving. This site curates my work, beginning with <em>Artifact 1</em> from Workshop 1: a collaborative
+            <strong>AI & ML Timelines</strong> project, presented as a clean, employer‑ready artifact with context and reflection.
+          </p>
+          <div class="meta" aria-label="skills and tags">
+            <span>AI History</span><span>Data & Research</span><span>Presentation Design</span><span>Collaboration</span>
+          </div>
+        </div>
+      </div>
+      <figure class="preview card" aria-label="Portfolio visual">
+        <div class="card-inner">
+          <div class="preview">AI & ML Timelines · 1950 → 2020s</div>
+        </div>
+      </figure>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section card" aria-label="About">
+      <div class="card-inner">
+        <h3>About</h3>
+        <p>
+          I bring together a background in Economics & Finance with hands‑on analytics and AI coursework. My interests include
+          data‑informed decision making, responsible AI, and building clear, useful artifacts that help teams move from ideas to impact.
+        </p>
+      </div>
+    </section>
+
+    <!-- Artifact 1 -->
+    <section id="artifact-1" class="section card" aria-label="Artifact 1: AI & ML Timelines">
+      <div class="card-inner">
+        <div class="tag">Artifact 1</div>
+        <h3>AI & ML Timelines — The Evolution of Artificial Intelligence</h3>
+        <p><strong>Course:</strong> Indiana Wesleyan University · Workshop 1</p>
+        <div class="meta"><span>Timeline</span><span>Research</span><span>Visual Communication</span></div>
+
+        <div class="section">
+          <h4>What this shows about me</h4>
+          <ul class="list">
+            <li><strong>Research & Synthesis:</strong> Identifying key milestones from 1950s foundations to modern generative AI.</li>
+            <li><strong>Communication:</strong> Converting complex history into a concise, accessible timeline for non‑experts.</li>
+            <li><strong>Collaboration:</strong> Contributing to a multi‑author artifact with consistent style and sources.</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h4>View the Artifact</h4>
+          <p>
+            📄 <a href="artifacts/Group2_residency.pdf" target="_blank" rel="noopener">
+              Open the AI & ML Timelines (PDF)
+            </a>
+          </p>
+          <p style="font-size: 14px; color: var(--muted)">
+            Tip: Place the PDF at <code class="inline">/artifacts/Group2_residency.pdf</code> in your repository so this link works.
+          </p>
+        </div>
+
+        <div class="section">
+          <h4>Audience Fit</h4>
+          <p>
+            This artifact is aimed at instructors and hiring managers who value historical context and critical thinking about AI cycles
+            (foundations → winters → deep learning). It demonstrates readiness to discuss technical progress and its real‑world
+            constraints (compute, data, expectations).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reflection -->
+    <section id="reflection" class="section card" aria-label="Reflection">
+      <div class="card-inner">
+        <h3>Reflection on Artifact 1</h3>
+        <p>
+          Working on this timeline reinforced that AI progress is cyclical, not strictly linear. The field’s breakthroughs depend on
+          algorithmic advances <em>and</em> broader readiness: compute, data availability, and realistic expectations. From Turing’s test and
+          early NLP systems like ELIZA to industrial robotics and today’s generative models, I built a mental model of how ideas
+          incubate, stall (AI winters), and re‑emerge stronger. In future iterations, I plan to make the timeline interactive so
+          non‑technical audiences can explore milestones and sources dynamically.
+        </p>
+        <div class="grid two">
+          <div class="card"><div class="card-inner">
+            <h4 style="margin-top:0">Skills Demonstrated</h4>
+            <ul class="list">
+              <li>Historical/technical research</li>
+              <li>Information design & storytelling</li>
+              <li>Team collaboration & editing</li>
+            </ul>
+          </div></div>
+          <div class="card"><div class="card-inner">
+            <h4 style="margin-top:0">Planned Improvements</h4>
+            <ul class="list">
+              <li>Interactive web timeline with filters and tooltips</li>
+              <li>Expanded coverage of 1990s–2000s ML milestones</li>
+              <li>Short “how‑I‑built‑this” write‑up or screencast</li>
+            </ul>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <section id="contact" class="section card" aria-label="Contact">
+      <div class="card-inner">
+        <h3>Contact</h3>
+        <p>
+          Questions about this artifact or my work? Reach out on LinkedIn or via email. This portfolio is hosted with GitHub Pages.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Fatimah Salahuddin · Built for Workshop 1 · GitHub Pages
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
